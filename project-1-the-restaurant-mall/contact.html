@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./styles/sass/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="header contact-header">
+        <div class="wrapper">
+            <nav>
+                <ul>
+                    <!-- Add proper href's -->
+                    <li><a href="./index.html" class="nav-item">Home</a></li>
+                    <li><a href="#" class="nav-item">About</a></li>
+                    <li><a href="./blog.html" class="nav-item">Blog</a></li>
+                    <li><a href="#" class="nav-item">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="contact-h1">
+                <h1 class="header-1">Get in touch</h1>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="contact">
+        <div class="wrapper">
+            <section class="contact-info">
+                <ul class="contact-flex-container">
+                    <li class="contact-image-container">
+                        <p class="body-text">info@email.com</p>
+                    </li>
+                    <li class="contact-image-container">
+                        <p class="body-text">123-456-7890</p>
+                    </li>
+                    <li class="contact-image-container">
+                        <p class="body-text">123 Queen Street West, Unit 10</p>
+                    </li>
+                    <li class="contact-image-container">
+                        <p class="body-text">Toronto, Ontario</p>
+                    </li>
+                    <li class="contact-image-container">
+                        <p class="body-text">M5V2D5</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="contact-form">
+                <form class="contact-form-container" action="#">
+                    <div class="name-email">
+                        <input type="text" id="name contact-name" class="name contact-name form-item" placeholder="Name">
+
+                        <input type="text" id="email contact-email" class="email contact-email form-item" placeholder="Email address">
+                    </div>
+                    <div class="message-submit">
+                        <textarea name="message" id="message" class="message form-item"  cols="30" rows="10"></textarea>
+
+                        <button type="submit" id="contact-button" class="buttons form-button form-item">Submit</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="wrapper">
+            <p class="body-text">Copyright © 2019 Juno College</p>
+        </div>
+    </footer>
+</body>
+</html>

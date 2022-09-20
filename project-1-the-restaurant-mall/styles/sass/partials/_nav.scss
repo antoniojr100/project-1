@@ -1,0 +1,25 @@
+@use "./variables" as *;
+
+nav{
+    margin-top: 0;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li{
+    padding: 50px 20px 100px 20px ;
+
+}
+
+nav ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    &:hover{
+        border-bottom: 2px solid $tertiary-colour;
+    }
+}
+
+

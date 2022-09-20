@@ -1,0 +1,555 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox], [type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "Josefin Sans", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Josefin Sans", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap");
+  font-weight: semibold;
+}
+@font-face {
+  font-family: "Barlow", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+  font-weight: normal;
+}
+html {
+  font-size: 62.5%;
+}
+
+.header-1,
+.header-2,
+.header-3,
+.header-4,
+.header-5,
+.header-6,
+.buttons {
+  text-transform: uppercase;
+}
+
+.header-1 {
+  font-family: "Josefin Sans";
+  font-size: 6.9rem;
+  font-weight: semibold;
+  color: #FFFFFF;
+}
+.header-1.white-background {
+  background-color: #FFFFFF;
+  color: #171B0E;
+}
+
+.header-2,
+.header-5,
+.buttons {
+  font-family: "Josefin Sans";
+  font-weight: normal;
+  color: #FFFFFF;
+}
+
+.header-2 {
+  font-size: 4.5rem;
+  line-height: 9.98rem;
+}
+
+.header-3 {
+  font-family: "Josefin Sans";
+  font-size: 4.5rem;
+  font-weight: normal;
+  color: #FFD300;
+  line-height: 9.98rem;
+  text-align: center;
+}
+
+.header-4 {
+  font-family: "Josefin Sans";
+  font-size: 4.5rem;
+  font-weight: normal;
+  color: #FFD300;
+  line-height: 9.98rem;
+}
+
+.header-5 {
+  font-size: 4rem;
+  line-height: 5.8rem;
+  letter-spacing: 1.3px;
+}
+
+.header-6 {
+  font-family: "Josefin Sans";
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #FFD300;
+  line-height: 5.8rem;
+  letter-spacing: 0.8px;
+}
+
+.buttons {
+  font-size: 2.24rem;
+  line-height: 41.6px;
+  text-align: center;
+  background-color: #FFD300;
+  color: black;
+  border: none;
+}
+.buttons.black-button {
+  background-color: #0F0F0F;
+  color: #FFFFFF;
+}
+
+.nav-item {
+  font-family: "Josefin Sans";
+  font-size: 2rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 2.9rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.body-text {
+  font-family: "Barlow";
+  font-size: 2rem;
+  font-weight: normal;
+  color: #FFFFFF;
+  line-height: 2.8rem;
+  letter-spacing: 1px;
+}
+
+.date-text {
+  font-family: "Barlow";
+  font-size: 2rem;
+  font-weight: bold;
+  color: #FFD300;
+  line-height: 2.8rem;
+  letter-spacing: 1px;
+}
+.date-text.white-date-text {
+  color: #FFFFFF;
+}
+
+.wrapper {
+  max-width: 1600px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background-color: #2B331B;
+}
+
+/*
+button{
+    color: $primary-colour;
+    background-color: transparent;
+    padding: 18px 36px;
+    border: 2px solid $primary-colour;
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 1.2rem;
+    text-align: center;
+    transition: 0.3s;
+    &:hover{
+        background-color: $primary-colour;
+        color: white;
+    }
+    &:focus{
+        background-color: $primary-colour;
+        color: white;
+    }
+    // Styles for buttons in top nav
+    &.menu-icon{
+        padding: 0;
+        border: 0;
+        transition: 0.3s;
+        &:hover{
+            background-color: transparent;
+        }
+        &:focus{
+            background-color: $primary-colour;
+        }
+    }
+} // Button styling ends
+*/
+/*
+a{
+    &.button{
+        color: $primary-colour;
+        background-color: transparent;
+        border: 2px solid $primary-colour;
+        padding: 18px 36px;
+        font-size: 0.8rem;
+        font-weight: bold;
+        line-height: 1.2rem;
+        text-align: center;
+        transition: 0.3s;
+        &:hover{
+            background-color: $primary-colour;
+            color: $white;
+        }
+        &:focus {
+            background-color: $primary-colour;
+            color: $white;
+        }
+    }   
+}
+*/
+nav {
+  margin-top: 0;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  padding: 50px 20px 100px 20px;
+}
+
+nav ul li a {
+  list-style-type: none;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #FFD300;
+}
+
+header {
+  margin-top: -10px;
+  background-size: cover;
+  position: relative;
+}
+header.home-header {
+  background-image: url(../../assets/home-header.jpg);
+  width: 100%;
+  height: 697px;
+}
+header.home-header.home-h1 {
+  width: 20%;
+}
+header.blog-header {
+  background-image: url(../../assets/blog-header.jpg);
+  width: 100%;
+  height: 700px;
+}
+header.contact-header {
+  background-image: url(../../assets/contact-header.jpg);
+  width: 100%;
+  height: 567px;
+}
+.left-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.blog-left-section {
+  width: 25%;
+  background-color: #171B0E;
+  text-align: left;
+  padding-bottom: 0;
+}
+.blog-left-section.blog-left-image img {
+  position: relative;
+  top: 100px;
+  right: 100px;
+}
+
+.blog-right-section {
+  width: 55%;
+}
+.blog-right-section.blog-right-image img {
+  position: absolute;
+  bottom: 100px;
+}
+.blog-right-section.blog-employment {
+  border-left: 1px solid #FFD300;
+}
+
+.blog-comments.comment-1 {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid red;
+}
+
+.contact div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact-info {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form {
+  width: 60%;
+  background-color: #171B0E;
+}
+.contact-form.contact-form-container {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form.contact-form-container.form-item {
+  background-color: #171B0E;
+}
+.contact-form.contact-form-container.name-email {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.contact-form.contact-form-container.message-submit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer {
+  background-color: #0F0F0F;
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  margin-bottom: -5px;
+}
+
+footer p {
+  padding-top: 1%;
+}/*# sourceMappingURL=styles.css.map */

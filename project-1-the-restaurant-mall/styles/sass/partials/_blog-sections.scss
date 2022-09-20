@@ -1,0 +1,43 @@
+@use "./variables" as *;
+
+.left-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.blog-left-section{
+    width: 25%;
+    background-color: $secondary-colour;
+    text-align: left;
+    padding-bottom: 0;
+    // position: relative;
+    &.blog-left-image img{
+        position: relative;
+        top: 100px;
+        right: 100px;
+    }
+}
+
+.blog-right-section{
+    width: 55%;
+    // align-self: flex-end;
+    &.blog-right-image img{
+        position: absolute;
+        bottom: 100px;
+    }
+    &.blog-employment{
+        border-left: 1px solid $tertiary-colour;
+        // border: 1px solid blue;
+    }
+}
+
+
+.blog-comments{
+
+    &.comment-1{
+        display: flex;
+        flex-direction: row;
+        border: 1px solid red;
+    }
+}

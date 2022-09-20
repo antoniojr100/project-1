@@ -1,0 +1,144 @@
+@use "./variables" as *;
+
+@font-face{
+    font-family: 'Josefin Sans', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'Josefin Sans', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+    font-weight: semibold;
+}
+
+@font-face{
+    font-family: 'Barlow', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+    font-weight: normal;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.header-1,
+.header-2,
+.header-3,
+.header-4,
+.header-5,
+.header-6,
+.buttons{
+    text-transform: uppercase;
+}
+
+
+// H1
+.header-1{
+    font-family: $main-font;
+    font-size: 6.9rem;
+    font-weight: semibold;
+    color: $white;
+    // .header-1 .white-background
+    &.white-background{
+        background-color: $white;
+        color: $secondary-colour;
+    }
+    
+}
+
+.header-2,
+.header-5,
+.buttons{
+    font-family: $main-font;
+    font-weight: normal;
+    color: $white;
+}
+
+    // Location, Community, Blog, Get in Touch
+.header-2{
+    font-size: 4.5rem;
+    line-height: 9.98rem;
+}
+
+    // Win a $100 gift card, Bringing nature into spaces
+.header-3{
+    font-family: $main-font;
+    font-size: 4.5rem;
+    font-weight: normal;
+    color: $tertiary-colour;
+    line-height: 9.98rem;
+    text-align: center;
+}
+
+    // Employment Opportunities
+.header-4{
+    font-family: $main-font;
+    font-size: 4.5rem;
+    font-weight: normal;
+    color: $tertiary-colour;
+    line-height: 9.98rem;
+}
+
+    // Best Burger, Try Something, Comments
+.header-5{
+    font-size: 4rem;
+    line-height: 5.8rem;
+    letter-spacing: 1.3px;
+}
+
+    // Featured Restaurants, Recent Posts
+.header-6{
+    font-family: $main-font;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: $tertiary-colour;
+    line-height: 5.8rem;
+    letter-spacing: 0.8px;
+}
+
+    // Read More, Find our More, Submit, Post Comment
+        // black-button, yellow-button, form-button
+.buttons{
+    font-size: 2.24rem;
+    line-height: 41.6px;
+    text-align: center;
+    background-color: $tertiary-colour;
+    color: black;
+    border: none;
+    &.black-button{
+        background-color: $black;
+        color: $white;
+    }
+}
+
+.nav-item{
+    font-family: $main-font;
+    font-size: 2rem;
+    font-weight: bold;
+    color: $white;
+    line-height: 2.9rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.body-text{
+    font-family: $body-font;
+    font-size: 2rem;
+    font-weight: normal;
+    color: $white;
+    line-height: 2.8rem;
+    letter-spacing: 1px;
+}
+
+.date-text{
+    font-family: $body-font;
+    font-size: 2rem;
+    font-weight: bold;
+    color: $tertiary-colour;
+    line-height: 2.8rem;
+    letter-spacing: 1px;
+    &.white-date-text{
+        color: $white;
+    }
+}
